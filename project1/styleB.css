@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  position: relative;
+  white-space: nowrap;
+}
+
+.container > div {
+  width: 100px;
+  height: 150px;
+  background-color: #eeeff2;
+  border-left: 10px dotted #d0d0ff;
+  display: inline-block;
+  margin-inline-end: 10px;
+  cursor: pointer;
+  font: 40px Tahoma;
+  padding: 10px;
+}
+
+.container > div:hover {
+  background-color: yellow;
+  color: goldenrod;
+}
+
+.container > div:last-child {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

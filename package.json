@@ -1,0 +1,7 @@
+{
+  "name": "cs142-web-applications",
+  "packageManager": "yarn@3.2.3",
+  "workspaces": [
+    "project*"
+  ]
+}
